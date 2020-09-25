@@ -5,16 +5,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Webpack Starter Kit</title>
-
-  
   </head>
 
   <body>
-    <article class="intro">
-      <h1>Mayybe yu</h1>
+    <button class="prev">prev</button>
+    <button class="next">next</button>
+    <hr />
+    <div class="siema">
+      <div>Hi, I'm slide 1</div>
+      <div>Hi, I'm slide 2</div>
+      <div>text</div>
+      <div>Hi, I'm slide 4</div>
+    </div>
 
-      <!-- HTML image reference example. -->
-      <img src="./images/intro.png" alt="" width="640" />
-    </article>
+    <button type="button" data-open-modal>Open</button>
+
+    <template id="modal">
+      <div class="modal">
+        <p>I'm a modal created from a DOM element/node.</p>
+        <button type="button" data-close-modal>Close</button>
+      </div>
+    </template>
   </body>
 </html>
