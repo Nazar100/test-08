@@ -52,6 +52,8 @@
     "basiclightbox": "^5.0.3",
     "core-js": "^3.6.5",
     "handlebars": "^4.7.6",
-    "siema": "^1.5.1"
+    "pnotify": "^5.1.2",
+    "siema": "^1.5.1",
+    "typewriter-effect": "^2.13.1"
   }
 }
